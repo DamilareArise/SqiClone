@@ -99,4 +99,9 @@ body::-webkit-scrollbar-thumb {
         font-weight: 700;
         line-height: 45px;
     }
+
+    .card-text{
+        height: 120px;
+    
+    }
 }
