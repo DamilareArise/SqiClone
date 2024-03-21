@@ -49,3 +49,54 @@ body::-webkit-scrollbar-thumb {
 .card-img-top{
     filter: grayscale(100%);
 }
+
+.card-text{
+    height: 150px;
+
+}
+
+.card-title{
+    height: 60px;
+}
+
+.card{
+    border: 0 !important;
+    box-shadow: none !important;
+    margin-top: 15px !important;
+}
+
+.hero-pic{
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+    .hero-pic{
+        max-width: 100%;
+    }
+    
+    .action{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 45px;
+    }
+
+    .card-text{
+        height: 240px;
+    
+    }
+
+}
+
+@media (max-width: 768px){
+    .hero-pic{
+        max-width: 80%;
+    }
+    
+    .action{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 45px;
+    }
+}
