@@ -23,7 +23,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .dropdown-menu{
-    margin-top: 34px !important;
+    margin-top: 32px !important;
     border-top: 2px solid #00208a !important;
     border-radius:0 !important ;
     
@@ -80,6 +80,10 @@ body::-webkit-scrollbar-thumb {
     border-bottom:1px solid #7ebec5 ;
 }
 
+.text-more{
+    color: #00208a;
+    /* font-size: small !important; */
+}
 
 @media (max-width: 1024px) {
     .hero-pic{
