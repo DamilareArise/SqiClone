@@ -85,6 +85,10 @@ body::-webkit-scrollbar-thumb {
     /* font-size: small !important; */
 }
 
+.alumni{
+    margin-left: 35px;
+}
+
 @media (max-width: 1024px) {
     .hero-pic{
         max-width: 100%;
