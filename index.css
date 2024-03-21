@@ -71,6 +71,15 @@ body::-webkit-scrollbar-thumb {
     height: auto;
 }
 
+.card-text2{
+    height: 500px;
+}
+
+.card-text2 p{
+    padding-top: 7px;
+    border-bottom:1px solid #7ebec5 ;
+}
+
 @media (max-width: 1024px) {
     .hero-pic{
         max-width: 100%;
@@ -85,6 +94,10 @@ body::-webkit-scrollbar-thumb {
     .card-text{
         height: 240px;
     
+    }
+
+    .card-text2{
+        height: 650px;
     }
 
 }
@@ -103,5 +116,9 @@ body::-webkit-scrollbar-thumb {
     .card-text{
         height: 120px;
     
+    }
+
+    .card-text2{
+        height: 410px;
     }
 }
