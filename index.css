@@ -89,6 +89,12 @@ body::-webkit-scrollbar-thumb {
     margin-left: 35px;
 }
 
+.tour{
+    background-image: linear-gradient(120deg, rgba(0, 4, 66, 0) 0%, #000442 70%), url(./sqi/DSC_9054-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 @media (max-width: 1024px) {
     .hero-pic{
         max-width: 100%;
