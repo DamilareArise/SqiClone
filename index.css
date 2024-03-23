@@ -95,6 +95,15 @@ body::-webkit-scrollbar-thumb {
     background-size: cover;
 }
 
+.carousel-item{
+    width: 50% !important;
+
+}
+
+.carousel-inner{
+    width: 100% !important;
+}
+
 @media (max-width: 1024px) {
     .hero-pic{
         max-width: 100%;
