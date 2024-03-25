@@ -104,6 +104,25 @@ body::-webkit-scrollbar-thumb {
     width: 100% !important;
 }
 
+.overflow-y-scroll::-webkit-scrollbar {
+	width:4px;
+	background:#eee;
+}
+
+.overflow-y-scroll::-webkit-scrollbar-button {
+	width:2px;
+	height:8px;
+	background:#666;
+}
+
+.overflow-y-scroll::-webkit-scrollbar-thumb {
+	background:#999;
+}
+
+.alumni_mobile{
+    display: none !important;
+}
+
 @media (max-width: 1024px) {
     .hero-pic{
         max-width: 100%;
@@ -144,5 +163,17 @@ body::-webkit-scrollbar-thumb {
 
     .card-text2{
         height: 410px;
+    }
+
+    .google{
+        width: 40% !important;
+    }
+
+    .alumni_mobile{
+        display: block !important;
+    }
+
+    .alumni_large{
+        display: none !important;
     }
 }
