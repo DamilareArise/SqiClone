@@ -191,5 +191,11 @@ body::-webkit-scrollbar-thumb {
         padding-left: 10px;
         
     }
-    
+
+    .ratings{
+        margin: 30px 4px;
+        width: 290px !important;
+        height: 330px !important;
+    }
+
 }
