@@ -176,4 +176,20 @@ body::-webkit-scrollbar-thumb {
     .alumni_large{
         display: none !important;
     }
+
+    .alumni_mobile_img  li img{
+        width: 70% ;
+        
+    }
+
+    .alumni_mobile_img li{
+        margin-left: -80px !important;
+    }
+
+    .ratings_details{
+        flex-direction: column !important;
+        padding-left: 10px;
+        
+    }
+    
 }
