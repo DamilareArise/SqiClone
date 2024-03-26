@@ -342,8 +342,26 @@
                 <img src="./sqi/Nigerian_Army.png" alt="" class="col-lg-2 col-md-3 alumni me-4 ">
                 <img src="./sqi/aella-credit.png" alt="" class="col-lg-2 col-md-3 alumni me-4 ">
             </div>
-            <div class="alumni_mobile container-fluid border border-black" style="height: 200px;">
-              
+            <div class="alumni_mobile">
+              <section class="splide" id="splide2" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                  <ul class="splide__list ">
+                    <li class="splide__slide me-2">
+                      <img src="./sqi/google.png" alt="" class="col-sm-2 p-3">
+                    </li>
+                    <li class="splide__slide me-2">
+                      <img src="./sqi/Interswitch.png" alt="" class="col-sm-2 p-3">
+                    </li>
+                    <li class="splide__slide me-2"><img src="./sqi/Andela-log-landscape-blue-400px.png" alt="" class="col-sm-2 p-3"></li>
+                    <li class="splide__slide me-2"><img src="./sqi/Microsoft_logo.png" alt="" class="col-sm-2 p-3"></li>
+                    <li class="splide__slide me-2"><img src="./sqi/Paystack.png" alt="" class="col-sm-2 p-3"></li>
+                    <li class="splide__slide me-2"><img src="./sqi/brewery.png" alt="" class="col-sm-2 p-3"></li>
+                    <li class="splide__slide me-2"><img src="./sqi/moneymie.png" alt="" class="col-sm-2 p-3"></li>
+                    <li class="splide__slide me-2"><img src="./sqi/Nigerian_Army.png" alt="" class="col-sm-2 p-3"></li>
+                    <li class="splide__slide me-2"><img src="./sqi/aella-credit.png" alt="" class="col-sm-2 p-3"></li>
+                  </ul>
+                </div>
+              </section>
             </div>
         </div>
     </section>
@@ -378,7 +396,7 @@
           </div>
           
           <div class="col-lg-8 col-md-8 p-3">
-            <div class="splide">
+            <div class="splide" id="splide1">
               <div class="splide__track">
                 <ul class="splide__list">
                   <li class="splide__slide me-2">
@@ -461,7 +479,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
     <script>
-      const splide = new Splide( '.splide', {
+      const splide1 = new Splide( '#splide1', {
         arrows: false,
         type   : 'loop',
         drag   : 'free',
@@ -472,10 +490,21 @@
         },
       } );
 
-      splide.mount(window.splide.Extensions);
+      splide1.mount(window.splide.Extensions);
 
+      const splide2 = new Splide( '#splide2', {
+        arrows: false,
+        type   : 'loop',
+        drag   : 'free',
+        focus  : 'center',
+        perPage: 2,
+        autoScroll: {
+          speed: 1,
+        },
+      } );
 
-      
+      splide2.mount(window.splide.Extensions);
+
     </script>
 </body>
 </html>
