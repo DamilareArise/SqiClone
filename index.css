@@ -123,6 +123,17 @@ body::-webkit-scrollbar-thumb {
     display: none !important;
 }
 
+.box{
+    height: 250px;
+    
+}
+
+.box-pic{
+    background-image: url(./sqi/conference_image_15.jpg);  
+    background-size: cover;
+    background-position: center;
+}
+
 @media (max-width: 1024px) {
     .hero-pic{
         max-width: 100%;
@@ -196,6 +207,10 @@ body::-webkit-scrollbar-thumb {
         margin: 30px 4px;
         width: 290px !important;
         height: 330px !important;
+    }
+
+    .box-pic{
+        height: 200px;
     }
 
 }
