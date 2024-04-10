@@ -14,7 +14,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nav-link, .navbar-nav, .dropdown-item{
-    color: #00208a !important;
+    color: black !important;
     font-size: 14px;
 }
 
@@ -26,6 +26,7 @@ body::-webkit-scrollbar-thumb {
     margin-top: 32px !important;
     border-top: 2px solid #00208a !important;
     border-radius:0 !important ;
+    font-weight: 500 !important;
     
 }
 
@@ -51,7 +52,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .card-text{
-    height: 150px;
+    height: 180px;
 
 }
 
@@ -132,6 +133,45 @@ body::-webkit-scrollbar-thumb {
     background-image: url(./sqi/conference_image_15.jpg);  
     background-size: cover;
     background-position: center;
+}
+
+.accordion-button{
+    background-color: transparent !important;
+}
+
+.accordion-item{
+    background-color: transparent !important;
+    color: white !important;
+    
+}
+
+
+.accordion-flush .accordion-button:not(.collapsed){
+    color: #d39b00 !important;
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed{
+    color: #d39b00 !important;
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 0;
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.accordion-flush {
+    --mdb-accordion-flush-btn-box-shadow: inset 0 -2px 0 #d39b00 !important;
+    --mdb-accordion-flush-border-bottom: 2px solid #d39b00 !important;
+}
+
+.accordion-button::after {
+    visibility: hidden;
+}
+
+.accordion-body{
+    font-weight: 500;
 }
 
 @media (max-width: 1024px) {
